@@ -135,7 +135,7 @@
 		// dist - distance between i-th and current cities
 		// t_f - favourite temperature
 		// t_i - temperature in i-th city
-		// sgn - sign of number
+		// sgn - sign of a number
 		// w - weather function (defined in db)
 		// w_i - weather in i-th city
 		// w_f - favourite weather
