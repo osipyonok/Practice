@@ -1,0 +1,87 @@
+html, body { height: 100%; width: 100%; margin: 0 auto; margin-left: calc(100vw - 100%); /*overflow:  hidden;*/}
+table {width:80%; height: 100%; }
+.chat_main {
+	border:1px solid #AAA;
+	-moz-box-shadow:0 0 10px #ccc;
+	-webkit-box-shadow: 0 0 10px #ccc;
+	max-width:210px;
+	width:210px;
+	padding:10px;
+	background:#f3f3f3;
+	height:80%;
+	overflow-y: scroll;
+	z-index: 1;
+}
+
+
+
+.message {
+border:1px solid #AAA;
+margin:4px;
+padding:5px;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+background:#ffffff;
+}
+.textf {-moz-box-shadow:0 0 10px #CCCCCC;
+-webkit-box-shadow:0 0 10px #CCCCCC;
+border:1px solid #CCCCCC;
+height:40px;}
+.submit {
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+background:#F3F3F3;
+border:1px solid #CCCCCC;
+font-size:16px;
+font-weight:bold;
+height:35px;
+margin-left:10px;
+padding:5px;
+}
+.message span {
+font-size:10px;
+color:#888;
+margin-left:10px;
+}
+
+.chat_submit{
+	margin:10px 0px;
+}
+.header{
+	background-color:#717dc9; 
+	padding:20px; 
+	text-align:center;
+	height: 15%;
+}
+
+.left_col{
+	max-width:230px;
+	width:230px;
+	height: 80%;
+	background-color:#dddddd;
+	padding:15px;
+	vertical-align:top;
+}
+
+.center_col{
+	background-color:#ffffff;
+	padding:15px;
+	vertical-align:top;
+	height: 80%;
+}
+
+.right_col{
+	height: 80%;
+	max-width:230px; 
+	width:230px;
+	background-color:#dddddd;
+	padding:15px;
+	vertical-align:top;
+}
+
+.footer{
+	padding:10px 0 10px 20px;
+	background-color:#717dc9;
+	font-size:13px;
+	height: 5%;
+}
