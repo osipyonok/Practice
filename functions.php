@@ -3,7 +3,7 @@
 	
 	define("DB_SERVER" , "localhost");
 	define("DB_USER" , "1050541");
-	define("DB_PASS" , "Dreamfoot1");
+	define("DB_PASS" , "eeeeee");
 	define("DB_NAME" , "1050541");
 
 	
